@@ -2,4 +2,15 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
+  p Welcome to #{title} hello world
+  button(type="button", class="btn btn-primary", onClick="moreClaps()") PressMe
+  #target Clap for me
+  script. 
+    let clap_count = 0;
+    function moreClaps(){
+      clap_count  = clap_count + 2;
+      console.log('test'+clap_count)
+      document.getElementById("target").innerHTML = "Clap "+ clap_count;
+
+    }
+
