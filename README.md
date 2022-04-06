@@ -2,7 +2,5 @@
 Lab w.r.t assignment 10
 heroku server. : https://s2wb52gagenapally.herokuapp.com/
 
-.House 
-    House_rooms (number)
-    House_area (number)
-    House_rent (number)
+
+my class house attributes house_rooms (number), house_area (String), and house_rent(number)
