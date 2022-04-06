@@ -18,10 +18,10 @@ block content
                         "house_rent": 550
                     },
                     {
-                        "house_rooms": 2,
+                        "house_rooms": 3,
                         "house_area": "200sqft",
                         "house_rent": 650
-                    },                   
+                    }                   
                 ]
             each v,index in house
                 div(class="col-sm-2" onclick=`buy(${index})`) #{v.house_rooms}
