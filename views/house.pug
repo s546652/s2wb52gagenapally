@@ -24,9 +24,11 @@ block content
                     }                   
                 ]
             each v,index in house
-                div(class="col-sm-2" onclick=`buy(${index})`) #{v.house_rooms} br
-                div(class="col-sm-2" onclick=`buy(${index})`) #{v.house_area} br
-                div(class="col-sm-2" onclick=`buy(${index})`) #{v.house_rent}br 
+                div(class="col-sm-2" onclick=`buy(${index})`) #{v.house_rooms}
+                br
+                div(class="col-sm-2" onclick=`buy(${index})`) #{v.house_area}
+                br
+                div(class="col-sm-2" onclick=`buy(${index})`) #{v.house_rent}
   script.                
         function buy(intemNo)
         {
